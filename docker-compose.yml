@@ -1,0 +1,55 @@
+version: '3'
+services:
+  db:
+    build:
+      context: ./db/
+      network: host
+    restart: always
+    env_file:
+      - ./.env
+    environment:
+      POSTGRES_USER: milldaemon
+      POSTGRES_PASSWORD: $POSTGRES_PASSWORD
+      PGDATA: /var/lib/postgresql/data/db-files/
+  web:
+    build:
+      context: ./web/
+      network: host
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - '8082:8080'
+  db2:
+    build:
+      context: ./db2/
+      network: host
+    restart: always
+    env_file:
+      - ./.env
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  web2:
+    build:
+      context: ./web2/
+      network: host
+    restart: always
+    ports:
+      - '8080:8080'
+    depends_on:
+      - db2
+      - web
+  next:
+    build:
+      context: ./next/
+      network: host
+    restart: always
+    depends_on:
+      - web2
+    ports:
+      - '3100:3000'
+
+volumes:
+  db-config:
+  pgdata:
+    driver: local

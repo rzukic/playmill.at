@@ -1,0 +1,1489 @@
+{
+  "languages": {
+    "en": {
+      "name": "English",
+      "nativeName": "English",
+      "flag": "GB",
+      "content": {
+        "navbar": {
+          "play": "Play",
+          "leaderboard": "Leaderboard",
+          "learn": "Learn",
+          "about": "About",
+          "login": "Login",
+          "signup": "Sign Up",
+          "logout": "Logout",
+          "premium": "Try Premium",
+          "profile": "Profile",
+          "friends": "Friends",
+          "home": "Home",
+          "swlm": "Switch to Light Mode",
+          "swdm": "Switch to Dark Mode",
+          "menu": "Menu",
+          "havenoaccount": "Don't have and account?",
+          "haveaccount": "Already have and account?",
+          "tomanydev": "Logged in on too many devices",
+          "logoutfromdev": "Logout from one of your devices",
+          "password": "Password",
+          "email": "Email",
+          "username": "Username",
+          "confpassword": "Confirm Password",
+          "country": "Country",
+          "loggedout": "Logged in",
+          "statuses": {
+            "loggedin": "Logged in",
+            "success": "Success",
+            "failed": "Failed",
+            "successlogin": "Successfully logged in.",
+            "successsignup": "Successfully signed up. Check your emails. You need to verify your account.",
+            "allfields": "Please fill out all fields.",
+            "invalidemail": "Invalid email",
+            "invalidusername": "Invalid username",
+            "passwordshort": "Password too short",
+            "passwordspaces": "Password cannot contain spaces",
+            "passwordlowercase": "Password must contain at least 1 lowercase letter",
+            "passworduppercase": "Password must contain at least 1 uppercase letter",
+            "passwordnumber": "Password must contain at least 1 number",
+            "passwordmatch": "Passwords don't match"
+          }
+        },
+        "index": {
+          "welcome": "Welcome to playmill.at",
+          "waiting": "People are currently registered. Join them today.",
+          "notlogged": "It seems you are not logged in.",
+          "createacc": "Create an account to save your results and measure yourself against your friends.",
+          "welcomeback": "Welcome back"
+        },
+        "play": {
+          "online": {
+            "title": "Online",
+            "play": "Play mill",
+            "currelo": "Current Elo is",
+            "info": "Select a game mode and click play to join the queue",
+            "modeinfo": "Find out more about",
+            "modes": "game modes",
+            "plslogin": "Please login to play",
+            "selmode": "Select game mode",
+            "waiting": "Waiting for opponent",
+            "queue": "Play",
+            "countselo": "Counts ELO",
+            "again": "Play again",
+            "replay": "View Replay"
+          },
+          "offline": {
+            "title": "Offline",
+            "ai": "Play against Computer",
+            "person": "Play against a Person",
+            "localgame": "Local Game",
+            "botgame": "Game against Computer",
+            "toplay": "To play",
+            "wins": "Wins",
+            "playagain": "Play again",
+            "moves": "Moves"
+          },
+          "puzzles": {
+            "title": "Puzzles",
+            "free": "Free Packs",
+            "premium": "Premium Packs"
+          }
+        },
+        "leaderboard": {
+          "title": "Top 10 players by (M)ELO",
+          "rank": "Rank",
+          "user": "Player",
+          "country": "Country"
+        },
+        "game-modes": {
+          "title": "Available game Modes"
+        },
+        "games": {
+          "title": "Played Games",
+          "opponent": "Opponent",
+          "mode": "Mode",
+          "result": "Result",
+          "played": "Played",
+          "end": "no more games found",
+          "page": "Page"
+        },
+        "game": {
+          "forfeit": "Forfeit",
+          "draw": "Request Draw",
+          "drawrequest": "Opponen is offering a draw",
+          "drawaccept": "Accept",
+          "drawdecline": "Decline",
+          "drawsent": "Draw request sent",
+          "drawcancel": "Cancel",
+          "win": "Victory",
+          "lose": "Defeat",
+          "drawn": "Draw",
+          "reason": "Reason",
+          "moves": "Moves",
+          "you": "You",
+          "opponent": "Opponent",
+          "messages": {
+            "win": {
+              "outoftime": "Opponent ran out of time",
+              "lockedin": "Opponent is locked in",
+              "pieces": "Opponent is out of pieces",
+              "forfeit": "Opponent forfeited",
+              "disconnect": "Opponent disconnected"
+            },
+            "lose": {
+              "outoftime": "You ran out of time",
+              "lockedin": "You are locked in",
+              "pieces": "You are out of pieces",
+              "forfeit": "You forfeited"
+            },
+            "draw": {
+              "repetition": "Draw by repetition",
+              "moves": "Draw by 30 move rule",
+              "agreement": "Draw by player agreement",
+              "rule": "Draw by forced draw rule"
+            }
+          }
+        },
+        "friends": {
+          "title": "Friends",
+          "add": "Add Friends",
+          "challenge": "Challenges",
+          "username": "Username",
+          "search": "Search Name",
+          "addfriend": "Add",
+          "request": "Request",
+          "sent": "Sent",
+          "recieved": "Recieved",
+          "nosent": "no sent friend requests",
+          "norec": "no recieved friend requests",
+          "accept": "Accept",
+          "nofriends": "No friends",
+          "remove": "Remove",
+          "nochallenges": "No challenges"
+        },
+        "account": {
+          "country": "Country",
+          "since": "Member since",
+          "edit": "Edit",
+          "editModal": {
+            "title": "Edit Account",
+            "picture": "Profile Picture",
+            "username": "Username",
+            "email": "Email",
+            "country": "Country",
+            "save": "Save",
+            "emailerror": "Invalid Email",
+            "usernameerror": "Invalid Username"
+          },
+          "changepwd": "Change Password",
+          "changepwdModal": {
+            "title": "Change Password",
+            "oldpwd": "Old Password",
+            "newpwd": "New Password",
+            "confpwd": "Confirm New Password",
+            "change": "Change Password",
+            "passwordshort": "Password too short",
+            "passwordspaces": "Password cannot contain spaces",
+            "passwordlowercase": "Password must contain at least 1 lowercase letter",
+            "passworduppercase": "Password must contain at least 1 uppercase letter",
+            "passwordnumber": "Password must contain at least 1 number",
+            "passwordmatch": "Passwords don't match"
+          },
+          "viewgames": "View your played Games",
+          "elohistory": "(M)ELO History",
+          "week": "Week",
+          "month": "Month",
+          "year": "Year"
+        },
+        "learn": {
+          "title": "How is the game played?",
+          "snippets": [
+            "Mill also sometimes known as nine mens morris is a two-player strategy game. The game is played on a grid with 24 spaces.",
+            "Each player starts out with 9 pieces on the side of the board.",
+            "The players take turns placing their pieces on the board. The pieces can only be placed on empty spaces.",
+            "Once all the pieces are placed, you can move one to any free adjacent space.",
+            "If one of the players is locked in and can no longer move, he/she loses the game.",
+            "The goal of the game is to get three of your pieces in a row. This construct is called a mill. A mill can be created horizontally or vertically.",
+            "It is wise to always be on the lookout for possible mills",
+            "Closing a mill allows you to remove one of your opponents pieces from the board. If you want to take another piece, you have to open and close the mill again. There are some restrictions on which pieces you can remove. You can only remove pieces that are not part of a mill. This means that if you have pieces in a mill, they are protected and cannot be removed.",
+            "Try to be on the lookout for possible mills by your opponent to not risk losing a mill you already have.",
+            "If one of the players has only three pieces left, he/she can now jump to any free space on the board. If he/she loses one more piece, he/she loses the game.",
+            "If your opponent has less than six pieces, you should always be able to jump into his/her mills to force a draw.",
+            "Because of this mechanic a game where both players have less than six pieces most likely ends in a draw. A draw can either occur by mutual agreement, by automatic draw after 30 moves whitout a closed mill or by move repetition. Sometimes a draw offer is cannot be denied by the opponent. This is due to the automatic draw rule. For more information on the automatic draw rule, look up the",
+            "If you want to practice there is an",
+            "provided by the"
+          ],
+          "links": [
+            "Official Tournament Rulebook",
+            "official practice document",
+            "WMD"
+          ]
+        },
+        "about": {
+          "title": "What is playmill.at?",
+          "snippets": [
+            "playmill.at is a website that allows you to play the traditional central European game of mill (also sometimes referred to as nine men's morris).",
+            "If you want to find out how exactly the game works, you can find the rules and some usefull tips and tricks on the",
+            "The whole game and elo calculation process complies with the"
+          ],
+          "links": [
+            "Find out more about the Game.",
+            "Learning page.",
+            "Official WMD Ruleset."
+          ]
+        },
+        "premium": {
+          "title": "Premium",
+          "description": "Playmill Premium is a membership that gives you access to exclusive features and benefits.",
+          "benefits": {
+            "title": "With Premium",
+            "titlewo": "Without Premium",
+            "withPremium": [
+              "Playmill Premium Badge",
+              "Daily new Puzzles",
+              "Unlimited Saved Game Replays",
+              "Help us keep the site running"
+            ],
+            "withOutPremium": [
+              "No Badge",
+              "No daily Puzzles",
+              "Game replays get deleted after 7 days"
+            ]
+          }
+        },
+        "badges": {
+          "title": "Your Badges",
+          "headers": {
+            "badge": "Badge",
+            "status": "Status",
+            "action": "Action",
+            "description": "Description"
+          },
+          "descriptions": {
+            "10games": "Play 10 games",
+            "100games": "Play 100 games",
+            "1000games": "Play 1000 games",
+            "10puzzle": "Solve 10 puzzles",
+            "100puzzle": "Solve 100 puzzles",
+            "1000puzzle": "Solve 1000 puzzles",
+            "gm": "Become a Grandmaster",
+            "mm": "Become a Mill Master",
+            "premium": "Become a Premium Member"
+          },
+          "active": "Active",
+          "inactive": "Inactive",
+          "notowned": "Not Owned",
+          "activate": "Activate",
+          "deactivate": "Deactivate",
+          "max3": "You can only have 3 active badges at a time."
+        },
+        "gameview": {
+          "game": "Game",
+          "played": "Played",
+          "winner": "Winner",
+          "white": "White",
+          "black": "Black",
+          "as": "as",
+          "vs": "VS",
+          "nonotation": "No notation available for this game.",
+          "controls": "Controls"
+        },
+        "puzzle": {
+          "notFound": "No puzzle not found.",
+          "try": "Try",
+          "tries": "Tries",
+          "solved": "Puzzle solved!",
+          "all": "All Puzzles",
+          "next": "Next Puzzle",
+          "again": "Play Again"
+        }
+      }
+    },
+    "de": {
+      "name": "German",
+      "nativeName": "Deutsch",
+      "flag": "DE",
+      "content": {
+        "navbar": {
+          "play": "Spielen",
+          "leaderboard": "Bestenliste",
+          "learn": "Lernen",
+          "about": "Über uns",
+          "login": "Anmelden",
+          "signup": "Profil erstellen",
+          "logout": "Abmelden",
+          "premium": "Probiere Premium aus",
+          "profile": "Profil",
+          "friends": "Freunde",
+          "home": "Startseite",
+          "swlm": "In den hellen Modus wechseln",
+          "swdm": "In den dunklen Modus wechseln",
+          "menu": "Menü",
+          "havenoaccount": "Sie haben noch kein Profil?",
+          "haveaccount": "Sie haben schon ein Profil?",
+          "tomanydev": "Auf zu vielen Geräten angemeldet",
+          "logoutfromdev": "Von einem Gerät abmelden",
+          "password": "Passwort",
+          "email": "Email",
+          "username": "Benutzername",
+          "confpassword": "Passwor bestätigen",
+          "country": "Land",
+          "loggedout": "Angemeldet",
+          "statuses": {
+            "loggedin": "Angemeldet",
+            "success": "Erfolgreich",
+            "failed": "Fehlgeschlagen",
+            "successlogin": "Erfolgreich angemeldet.",
+            "successsignup": "Erfolgreich registriert. Sie müssen ihren Account noch bestätigen. Sie erhalten eine Email mit einem Bestätigungslink.",
+            "allfields": "Bitte füllen Sie alle Felder aus.",
+            "invalidemail": "Ungültige Email",
+            "invalidusername": "Ungültiger Benutzername",
+            "passwordshort": "Passwort zu kurz",
+            "passwordspaces": "Passwort darf keine Leerzeichen enthalten",
+            "passwordlowercase": "Passwort muss mindestens 1 Kleinbuchstaben enthalten",
+            "passworduppercase": "Passwort muss mindestens 1 Großbuchstaben enthalten",
+            "passwordnumber": "Passwort muss mindestens 1 Zahl enthalten",
+            "passwordmatch": "Passwörter stimmen nicht überein"
+          }
+        },
+        "index": {
+          "welcome": "Willkommen bei playmill.at",
+          "waiting": "Leute sind derzeit registriert. Treten Sie ihnen heute bei.",
+          "notlogged": "Es scheint, dass Sie nicht angemeldet sind.",
+          "createacc": "Erstellen Sie ein Profil, um Ihre Ergebnisse zu speichern und sich mit Ihren Freunden zu messen.",
+          "welcomeback": "Willkommen zurück"
+        },
+        "play": {
+          "online": {
+            "title": "Online",
+            "play": "Mühle spielen",
+            "currelo": "Aktuelle Elo ist",
+            "info": "Wählen Sie einen Spielmodus aus und klicken Sie auf spielen, um in die Warteschlange zu gelangen",
+            "modeinfo": "Erfahren Sie mehr über",
+            "modes": "Spielmodi",
+            "plslogin": "Bitte melden Sie sich an, um zu spielen",
+            "selmode": "Spielmodus auswählen",
+            "waiting": "Warten auf Gegner",
+            "queue": "Spielen",
+            "countselo": "Zählt Elo",
+            "again": "Erneut spielen",
+            "replay": "Wiedergabe anzeigen"
+          },
+          "offline": {
+            "title": "Offline",
+            "ai": "Gegen den Computer spielen",
+            "person": "Gegen eine Person spielen",
+            "localgame": "Lokales Spiel",
+            "botgame": "Spiel gegen den Computer",
+            "toplay": "Am Zug",
+            "wins": "Gewinnt",
+            "playagain": "Erneut spielen",
+            "moves": "Züge"
+          },
+          "puzzles": {
+            "title": "Puzzle",
+            "free": "Kostenlose Pakete",
+            "premium": "Premium-Pakete"
+          }
+        },
+        "leaderboard": {
+          "title": "Top 10 Spieler nach (M)ELO",
+          "rank": "Rang",
+          "user": "Spieler",
+          "country": "Land"
+        },
+        "game-modes": {
+          "title": "Verfügbare Spielmodi"
+        },
+        "games": {
+          "title": "Gespielte Partien",
+          "opponent": "Gegner",
+          "mode": "Modus",
+          "result": "Ergebnis",
+          "played": "Gespielt",
+          "end": "keine weiteren Spiele gefunden",
+          "page": "Seite"
+        },
+        "game": {
+          "forfeit": "Aufgeben",
+          "draw": "Unentschieden anfragen",
+          "drawrequest": "Gegner bietet Unentschieden an",
+          "drawaccept": "Annehmen",
+          "drawdecline": "Ablehnen",
+          "drawsent": "Unentschieden angefragt",
+          "drawcancel": "Abbrechen",
+          "win": "Gewonnen",
+          "lose": "Verloren",
+          "drawn": "Unentschieden",
+          "reason": "Grund",
+          "moves": "Züge",
+          "you": "Sie",
+          "opponent": "Gegner",
+          "messages": {
+            "win": {
+              "outoftime": "Gegner hat keine Zeit mehr",
+              "lockedin": "Gegner ist eingesperrt",
+              "pieces": "Gegner hat keine Steine mehr",
+              "forfeit": "Gegner hat aufgegeben",
+              "disconnect": "Gegner hat die Verbindung getrennt"
+            },
+            "lose": {
+              "outoftime": "Sie haben keine Zeit mehr",
+              "lockedin": "Sie sind eingesperrt",
+              "pieces": "Sie haben keine Steine mehr",
+              "forfeit": "Sie haben aufgegeben"
+            },
+            "draw": {
+              "repetition": "Zugwiederholung",
+              "moves": "30 Züge ohne Mühle",
+              "agreement": "Spielerbeschluss",
+              "rule": "automatische Remis Regel"
+            }
+          }
+        },
+        "friends": {
+          "title": "Freunde",
+          "add": "Freunde Hinzufügen",
+          "challenge": "Herausfordern",
+          "username": "Benutzername",
+          "search": "Suche nach Namen",
+          "addfriend": "Hinzufügen",
+          "request": "Freundschaftsanfragen",
+          "sent": "Gesendet",
+          "recieved": "Empfangen",
+          "nosent": "keine gesendeten Freundschaftsanfragen",
+          "norec": "keine empfangenen Freundschaftsanfragen",
+          "accept": "Akzeptieren",
+          "nofriends": "Keine Freunde",
+          "remove": "Entfernen",
+          "nochallenges": "Keine Herausforderungen"
+        },
+        "account": {
+          "country": "Land",
+          "since": "Mitglied seit",
+          "edit": "Bearbeiten",
+          "editModal": {
+            "title": "Profil bearbeiten",
+            "picture": "Profilbild",
+            "username": "Benutzername",
+            "email": "Email",
+            "country": "Land",
+            "save": "Speichern",
+            "emailerror": "Ungültige Email",
+            "usernameerror": "Ungültiger Benutzername"
+          },
+          "changepwd": "Passwort ändern",
+          "changepwdModal": {
+            "title": "Passwort ändern",
+            "oldpwd": "Altes Passwort",
+            "newpwd": "Neues Passwort",
+            "confpwd": "Passwort bestätigen",
+            "change": "Change Password",
+            "passwordshort": "Passwort zu kurz",
+            "passwordspaces": "Passwort darf keine Leerzeichen enthalten",
+            "passwordlowercase": "Passwort muss mindestens 1 Kleinbuchstaben enthalten",
+            "passworduppercase": "Passwort muss mindestens 1 Großbuchstaben enthalten",
+            "passwordnumber": "Passwort muss mindestens 1 Zahl enthalten",
+            "passwordmatch": "Passwörter stimmen nicht überein"
+          },
+          "viewgames": "Gespielte Partien ansehen",
+          "elohistory": "(M)ELO Verlauf",
+          "week": "Woche",
+          "month": "Monat",
+          "year": "Jahr"
+        },
+        "learn": {
+          "title": "Wie spielt man Mühle?",
+          "snippets": [
+            "Mühle ist ein Brettspiel für zwei Spieler, das auf einem quadratischen Spielfeld mit 24 Feldern gespielt wird. Das Spiel ist ca. 6000 Jahre alt und wurde in verschiedenen Kulturen gespielt. In Europa ist es seit dem 17. Jahrhundert bekannt.",
+            "Jeder beggint das Spiel mit 9 Steinen in seiner Farbe auf der Seite des Bretts",
+            "Die Spieler ziehen abwechselnd ihre Steine auf ein freies Feld.",
+            "Sobald alle Steine auf dem Spielfeld sind, können die Steine beliebig auf freie angrenzende Spielfelder bewegt werden.",
+            "Sollte ein Spieler eingesperrt sein und keine möglichen Züge mehr haben, verliert er/sie das Spiel.",
+            "Sollte ein Spieler 3 Steine in einer Reihe haben, hat er/sie eine Mühle gebildet. Mühlen können sowohl vertikal als auch horizontal gebilted werden.",
+            "Sie sollten immer versuchen die nächstmögliche Mühle zu finden",
+            "Sollte ein Spieler eine Mühle gebildet haben, kann er/sie einen gegnerischen Stein entfernen, der nicht in einer Mühle ist.",
+            "Sie sollten aufpassen, dass Sie ihre Mühle nicht aufmachen, wenn die Gefahr besteht, dass diese entfernt wird.",
+            "Sollte ein Spieler nur noch 3 Steine haben, kann er/sie einen Stein beliebig auf ein freies Feld bewegen. Sollte er/sie einen weiteren Stein verlieren ist die Partie verloren",
+            "Wenn Ihr Gegner weniger als 6 Steine hat sollte es möglich sein, immer in eine Mühle zu springen und so ein remis zu erzwingen",
+            "Aufgrund dieser Mechanig endet Mühle oft in einem Remis. Diese kann durch übereinstimmung der Spieler, nach 30 Zügen ohne Mühle, nach dreimaliger Zugwiederholung oder durch eine der Automatischen remis Regeln. Mehr über diese Regeln können sie im Turnierreglement nachlesen.",
+            "Sollten Sie üben wollen können sie dies mit dem",
+            "tun, welches vom WMD bereitgestellt wird."
+          ],
+          "links": [
+            "Turnierreglement",
+            "Mühleübungen Dokument",
+            "WMD"
+          ]
+        },
+        "about": {
+          "title": "Über uns",
+          "snippets": [
+            "playmill.at ist eine Website, auf der Sie das traditionelle mitteleuropäische Spiel Mühle spielen können.",
+            "Wenn Sie herausfinden möchten, wie das Spiel genau funktioniert, finden Sie die Regeln und nützliche Tipps und Tricks auf der",
+            "Der gesamte Spiel- und Elo-Berechnungsprozess entspricht dem"
+          ],
+          "links": [
+            "Finde mehr über Mühle heraus.",
+            "Lernseite.",
+            "Standard des WMD."
+          ]
+        },
+        "premium": {
+          "title": "Premium",
+          "description": "Playmill Premium ist eine Mitgliedschaft, die Ihnen exklusive Funktionen und Vorteile bietet.",
+          "benefits": {
+            "title": "Mit Premium",
+            "titlewo": "Ohne Premium",
+            "withPremium": [
+              "Playmill Premium Abzeichen",
+              "Täglich neue Puzzles",
+              "Unbegrenzte gespeicherte Spielwiederholungen",
+              "Hilf uns, die Website am Laufen zu halten"
+            ],
+            "withOutPremium": [
+              "Kein Abzeichen",
+              "Keine täglichen Puzzles",
+              "Spielwiederholungen werden nach 7 Tagen gelöscht"
+            ]
+          }
+        },
+        "badges": {
+          "title": "Deine Abzeichen",
+          "headers": {
+            "badge": "Abzeichen",
+            "status": "Status",
+            "action": "Aktion",
+            "description": "Beschreibung"
+          },
+          "descriptions": {
+            "10games": "Spiele 10 Spiele",
+            "100games": "Spiele 100 Spiele",
+            "1000games": "Spiele 1000 Spiele",
+            "10puzzle": "Löse 10 Puzzle",
+            "100puzzle": "Löse 100 Puzzle",
+            "1000puzzle": "Löse 1000 Puzzle",
+            "gm": "Werde ein Großmeister",
+            "mm": "Werde ein Müllermeister",
+            "premium": "Werde Premium-Mitglied"
+          },
+          "active": "Aktiv",
+          "inactive": "Inaktiv",
+          "notowned": "Nicht in Besitz",
+          "activate": "Aktivieren",
+          "deactivate": "Deaktivieren",
+          "max3": "Du kannst maximal 3 Abzeichen aktivieren"
+        },
+        "gameview": {
+          "game": "Spiel",
+          "played": "Gespielt",
+          "winner": "Gewinner",
+          "white": "Weiß",
+          "black": "Schwarz",
+          "as": "als",
+          "vs": "gegen",
+          "nonotation": "Keine Notation für dieses Spiel verfügbar.",
+          "controls": "Steuerung"
+        },
+        "puzzle": {
+          "notFound": "Kein Puzzle gefunden.",
+          "try": "Versuch",
+          "tries": "Versuche",
+          "solved": "Puzzle gelöst!",
+          "all": "Alle Puzzles",
+          "next": "Nächstes Puzzle",
+          "again": "Erneut spielen"
+        }
+      }
+    },
+    "bs": {
+      "name": "Bosnian",
+      "nativeName": "Bosanski",
+      "flag": "BA",
+      "content": {
+        "navbar": {
+          "play": "Igraj",
+          "leaderboard": "Najbolji",
+          "learn": "Uči",
+          "about": "O nama",
+          "login": "Prijavi se",
+          "signup": "Napravi profil",
+          "logout": "Odjavi se",
+          "premium": "Isprobaj Premium",
+          "profile": "Profil",
+          "friends": "Prijatelji",
+          "home": "Početna",
+          "swlm": "Prebaci u svjetli mod",
+          "swdm": "Prebaci u tamni mod",
+          "menu": "Meni",
+          "havenoaccount": "Nemate profil?",
+          "haveaccount": "Već imate profil?",
+          "tomanydev": "Prijavljeni ste na previše uređaja",
+          "logoutfromdev": "Odjavite se sa jednog uređaja",
+          "password": "Šifra",
+          "email": "Email",
+          "username": "Korisničko ime",
+          "confpassword": "Potvrdi šifru",
+          "country": "Država",
+          "loggedout": "Prijavljen",
+          "statuses": {
+            "loggedin": "Prijavljen",
+            "success": "Uspješno",
+            "failed": "Neuspješno",
+            "successlogin": "Uspješno ste se prijavili.",
+            "successsignup": "Uspješno ste napravili profil. Dobili ste email sa aktivacijskim linkom.",
+            "allfields": "Molimo popunite sva polja.",
+            "invalidemail": "Neispravan email",
+            "invalidusername": "Neispravno korisničko ime",
+            "passwordshort": "Šifra je prekratka",
+            "passwordspaces": "Šifra ne može sadržavati razmake",
+            "passwordlowercase": "Šifra mora sadržavati barem 1 malo slovo",
+            "passworduppercase": "Šifra mora sadržavati barem 1 veliko slovo",
+            "passwordnumber": "Šifra mora sadržavati barem 1 broj",
+            "passwordmatch": "Šifre nisu iste"
+          }
+        },
+        "index": {
+          "welcome": "Dobrodošli na playmill.at",
+          "waiting": "Ljudi su trenutno registrirani. Pridružite im se danas.",
+          "notlogged": "Čini se da niste prijavljeni.",
+          "createacc": "Napravite profil da biste mogli spremiti svoje rezultate i mjeriti se s prijateljima.",
+          "welcomeback": "Dobrodošli nazad"
+        },
+        "play": {
+          "online": {
+            "title": "Online",
+            "play": "Igraj micu",
+            "currelo": "Vaš trenutni elo je",
+            "info": "Odaberite modues igre i kliknite na igraj da bi se prijavili u red",
+            "modeinfo": "Saznajte više o",
+            "modes": "Modus igre",
+            "plslogin": "Molimo prijavite se da biste mogli igrati",
+            "selmode": "Odaberite modus igre",
+            "waiting": "Čekanje na protivnika",
+            "queue": "Igraj",
+            "countselo": "Broji ELO",
+            "again": "Igraj ponovo",
+            "replay": "Pogledaj ponovo"
+          },
+          "offline": {
+            "title": "Offline",
+            "ai": "Igraj protiv computera",
+            "person": "Igraj protiv osobe",
+            "localgame": "Lokalna igra",
+            "botgame": "Igra protiv computera",
+            "toplay": "Na potezu",
+            "wins": "Pobjede",
+            "playagain": "Igraj ponovo",
+            "moves": "Potezi"
+          },
+          "puzzles": {
+            "title": "Slagalice",
+            "free": "Besplatni paketi",
+            "premium": "Premium paketi"
+          }
+        },
+        "leaderboard": {
+          "title": "Top 10 igrača po (M)ELO-u",
+          "rank": "Rang",
+          "user": "Igrač",
+          "country": "Država"
+        },
+        "game-modes": {
+          "title": "Dostupni modusi igre"
+        },
+        "games": {
+          "title": "Igre",
+          "opponent": "Protivnik",
+          "mode": "Modus",
+          "result": "Rezultat",
+          "played": "Igrano",
+          "end": "nema više igara",
+          "page": "Stranica"
+        },
+        "game": {
+          "forfeit": "Predaj",
+          "draw": "Zatraži remi",
+          "drawrequest": "Protivnik zatražuje remi",
+          "drawaccept": "Prihvati",
+          "drawdecline": "Odbij",
+          "drawsent": "Zatražili ste remi",
+          "drawcancel": "Otkaži",
+          "win": "Pobjeda",
+          "lose": "Poraz",
+          "drawn": "Remi",
+          "reason": "Razlog",
+          "moves": "Potezi",
+          "you": "Vi",
+          "opponent": "Protivnik",
+          "messages": {
+            "win": {
+              "outoftime": "Isteklo vrijeme",
+              "lockedin": "Protivniku nemože više pomaknuti pion",
+              "pieces": "Protivniku nestalo piuna",
+              "forfeit": "Protivnik je predao",
+              "disconnect": "Protivnik se odjavio"
+            },
+            "lose": {
+              "outoftime": "Isteklo vrijeme",
+              "lockedin": "Nemožete više pomaknuti pion",
+              "pieces": "Nestalo vam je piuna",
+              "forfeit": "Predali ste"
+            },
+            "draw": {
+              "repetition": "Ponavljanje pozicije",
+              "moves": "Remi po pravilu od 30 poteza",
+              "agreement": "Remi po dogovoru igrača",
+              "rule": "Remi po pravilu samostalnog remia"
+            }
+          }
+        },
+        "friends": {
+          "title": "Prijatelji",
+          "add": "Dodaj prijatelja",
+          "challenge": "Izazovi",
+          "username": "Korisničko ime",
+          "search": "Pretraži po imenu",
+          "addfriend": "Dodaj",
+          "request": "Zahtjevi za prijateljstvo",
+          "sent": "Poslani",
+          "recieved": "Primljeni",
+          "nosent": "Nema poslanih zahtjeva za prijateljstvo",
+          "norec": "Nema primljenih zahtjeva za prijateljstvo",
+          "accept": "Prihvati",
+          "nofriends": "Nema prijatelja",
+          "remove": "Ukloni",
+          "nochallenges": "Nema izazova"
+        },
+        "account": {
+          "country": "Država",
+          "since": "Član od",
+          "edit": "Preradi",
+          "editModal": {
+            "title": "Uredi profil",
+            "picture": "Slika",
+            "username": "Korisničko ime",
+            "email": "Email",
+            "country": "Država",
+            "save": "Spremi",
+            "emailerror": "Neispravan email",
+            "usernameerror": "Neispravno korisničko ime"
+          },
+          "changepwd": "Promijeni šifru",
+          "changepwdModal": {
+            "title": "Promijeni šifru",
+            "oldpwd": "Stara šifra",
+            "newpwd": "Nova šifra",
+            "confpwd": "Potvrdi šifru",
+            "change": "Promijeni šifru",
+            "passwordshort": "Šifra je prekratka",
+            "passwordspaces": "Šifra ne može sadržavati razmake",
+            "passwordlowercase": "Šifra mora sadržavati barem 1 malo slovo",
+            "passworduppercase": "Šifra mora sadržavati barem 1 veliko slovo",
+            "passwordnumber": "Šifra mora sadržavati barem 1 broj",
+            "passwordmatch": "Šifre nisu iste"
+          },
+          "viewgames": "Pogledaj igre",
+          "elohistory": "Historija (M)ELO-a",
+          "week": "Sedmica",
+          "month": "Mjesec",
+          "year": "Godina"
+        },
+        "learn": {
+          "title": "Kako se igra mica?",
+          "snippets": [
+            "Mica je igra za dva igrača koja se igra na kvadratnom polju sa 24 polja. Igra je stara oko 6000 godina i igrala se u različitim kulturama. U Evropi je poznata od 17. vijeka.",
+            "Svaki igrač počinje sa 9 piuna u svom bojama na strani ploče",
+            "Igrači se redom pomiču svojim piunima na slobodno polje.",
+            "Kada su svi piuni na ploči, piuni se mogu slobodno pomjerati na susjedna slobodna polja.",
+            "Ako igrač bude zatvoren i ne može više igrati, on gubi igru.",
+            "Ako igrač ima 3 piuna u micu, on ima micu. Mice se mogu stvarati i vertikalno i horizontalno.",
+            "Uvijek pokušavajte pronaći najbliže mice",
+            "Ako igrač stvori micu, on može ukloniti protivnički piun koji nije u mici.",
+            "Pazite da ne otvorite svoje mice ako postoji opasnost da će biti uklonjeno.",
+            "Ako igrač ima samo 3 piuna, on može pomjeriti piun na bilo koje slobodno polje. Ako izgubi još jedan piun, igra je izgubljena",
+            "Ako vaš protivnik ima manje od 6 piuna, trebalo bi biti moguće uvijek skočiti u mica i tako izazvati neriješen rezultat",
+            "Zbog ovih mehanizama, mica često završava neriješeno. Ovo se može postići dogovorom igrača, nakon 30 poteza bez mica, nakon tri puta ponavljanja poteza ili prema jednoj od automatskih pravila neriješenog rezultata. Više o ovim pravilima možete pročitati u",
+            "Ako želite vježbati, možete to učiniti sa",
+            "koji se pruža od strane"
+          ],
+          "links": [
+            "pravilima turnira.",
+            "Dokument vježbi za mica",
+            "WMD-a."
+          ]
+        },
+        "about": {
+          "title": "O nama",
+          "snippets": [
+            "playmill.at je web stranica gdje možete igrati tradicionalnu srednjeeuropsku igru Mica.",
+            "Ako želite saznati kako tačno igra funkcioniše, pravila i neke korisne savjete i trikove možete pronaći na",
+            "Cijeli proces igre i izračunavanja Elo-a se pridržava"
+          ],
+          "links": [
+            "Saznajte više o Mici",
+            "stranici za učenje.",
+            "standardima WMD-a."
+          ]
+        },
+        "premium": {
+          "title": "Premium",
+          "description": "Playmill Premium je članstvo koje vam omogućuje pristup ekskluzivnim funkcijama i prednostima.",
+          "benefits": {
+            "title": "Sa Premiumom",
+            "titlewo": "Bez Premiuma",
+            "withPremium": [
+              "Playmill Premium Bedž",
+              "Svakodnevno nova slagalica",
+              "Neograničene spremljene reprize igara",
+              "Pomozite nam da održimo web stranicu"
+            ],
+            "withOutPremium": [
+              "Bez oznake",
+              "Bez svakodnevnih slagalica",
+              "Reprize igara se brišu nakon 7 dana"
+            ]
+          }
+        },
+        "badges": {
+          "title": "Vaši bedževi",
+          "headers": {
+            "badge": "Bedž",
+            "status": "Status",
+            "action": "Akcija",
+            "description": "Opis"
+          },
+          "descriptions": {
+            "10games": "Igraj 10 igara",
+            "100games": "Igraj 100 igara",
+            "1000games": "Igraj 1000 igara",
+            "10puzzle": "Riješi 10 slagalica",
+            "100puzzle": "Riješi 100 slagalica",
+            "1000puzzle": "Riješi 1000 slagalica",
+            "gm": "Postani velemajstor",
+            "mm": "Postani mlin majstor",
+            "premium": "Postani premium član"
+          },
+          "active": "Aktivno",
+          "inactive": "Neaktivno",
+          "notowned": "Nemate",
+          "activate": "Aktiviraj",
+          "deactivate": "Deaktiviraj",
+          "max3": "Maksimalno 3 aktivna bedža"
+        },
+        "gameview": {
+          "game": "Igra",
+          "played": "Igrano",
+          "winner": "Pobjednik",
+          "white": "Bijeli",
+          "black": "Crni",
+          "as": "kao",
+          "vs": "protiv",
+          "nonotation": "Nema dostupne notacije za ovu igru.",
+          "controls": "Upravljanje"
+        },
+        "puzzle": {
+          "notFound": "Nije pronađena slagalica.",
+          "try": "Pokušaj",
+          "tries": "Pokušaji",
+          "solved": "Slagalica riješena!",
+          "all": "Sve slagalice",
+          "next": "Slijedeća slagalica",
+          "again": "Igraj ponovo"
+        }
+      }
+    },
+    "hu": {
+      "name": "Hungarian",
+      "nativeName": "Magyar",
+      "flag": "HU",
+      "content": {
+        "navbar": {
+          "play": "Játék",
+          "leaderboard": "Ranglista",
+          "learn": "Tanulás",
+          "about": "Rólunk",
+          "login": "Bejelentkezés",
+          "signup": "Regisztráció",
+          "logout": "Kijelentkezés",
+          "premium": "Próbáld ki a Premiumot",
+          "profile": "Profil",
+          "friends": "Barátok",
+          "home": "Főoldal",
+          "swlm": "Váltás világos módra",
+          "swdm": "Váltás sötét módra",
+          "menu": "Menü",
+          "havenoaccount": "Nincs még fiókod?",
+          "haveaccount": "Már van fiókod?",
+          "tomanydev": "Túl sok eszközre jelentkeztél be",
+          "logoutfromdev": "Jelentkezz ki valamelyik eszközről",
+          "password": "Jelszó",
+          "email": "Email",
+          "username": "Felhasználónév",
+          "confpassword": "Jelszó megerősítése",
+          "country": "Ország",
+          "loggedout": "Kijelentkezve",
+          "statuses": {
+            "loggedin": "Bejelentkezve",
+            "success": "Siker",
+            "failed": "Sikertelen",
+            "successlogin": "Sikeresen bejelentkeztél.",
+            "successsignup": "Sikeresen regisztráltál.",
+            "allfields": "Kérjük, töltsd ki az összes mezőt.",
+            "invalidemail": "Érvénytelen email",
+            "invalidusername": "Érvénytelen felhasználónév",
+            "passwordshort": "A jelszó túl rövid",
+            "passwordspaces": "A jelszó nem tartalmazhat szóközöket",
+            "passwordlowercase": "A jelszónak legalább 1 kisbetűt kell tartalmaznia",
+            "passworduppercase": "A jelszónak legalább 1 nagybetűt kell tartalmaznia",
+            "passwordnumber": "A jelszónak legalább 1 számot kell tartalmaznia",
+            "passwordmatch": "A jelszavak nem egyeznek"
+          }
+        },
+        "index": {
+          "welcome": "Üdvözöllek a playmill.at-on",
+          "waiting": "Jelenleg emberek regisztráltak. csatlakozz hozzájuk ma.",
+          "notlogged": "Úgy tűnik, nem jelentkeztél be.",
+          "createacc": "Hozz létre egy fiókot az eredményeid mentéséhez és mérkőzz meg barátaiddal.",
+          "welcomeback": "Üdvözlünk vissza"
+        },
+        "play": {
+          "online": {
+            "title": "Online",
+            "play": "Malom játék",
+            "currelo": "Jelenlegi Elo",
+            "info": "Válaszd ki a játékmódot és kattints a játékra, hogy csatlakozz a sorhoz",
+            "modeinfo": "Tudj meg többet róla",
+            "modes": "játékmódok",
+            "plslogin": "Kérjük, jelentkezz be a játékhoz",
+            "selmode": "Válaszd ki a játékmódot",
+            "waiting": "Várakozás ellenfélre",
+            "queue": "Játék",
+            "countselo": "ELO számláló",
+            "again": "Ismét játék",
+            "replay": "Ismétlés megtekintése"
+          },
+          "offline": {
+            "title": "Offline",
+            "ai": "Játék a számítógép ellen",
+            "person": "Játék egy személy ellen",
+            "localgame": "Helyi játék",
+            "botgame": "Játék a számítógép ellen",
+            "toplay": "Soron",
+            "wins": "Győzelmek",
+            "playagain": "Játssz újra",
+            "moves": "Lépések"
+          },
+          "puzzles": {
+            "title": "Feladványok",
+            "free": "Ingyenes csomagok",
+            "premium": "Prémium csomagok"
+          }
+        },
+        "leaderboard": {
+          "title": "Top 10 játékos (M)ELO-val",
+          "rank": "Rang",
+          "user": "Játékos",
+          "country": "Ország"
+        },
+        "game-modes": {
+          "title": "Elérhető játékmódok"
+        },
+        "games": {
+          "title": "Játszott játékok",
+          "opponent": "Ellenfél",
+          "mode": "Mód",
+          "result": "Eredmény",
+          "played": "Játszva",
+          "end": "nincs több találat",
+          "page": "Oldal"
+        },
+        "game": {
+          "forfeit": "Feladás",
+          "draw": "Döntetlen kérés",
+          "drawrequest": "Az ellenfél döntetlen ajánlatot tett",
+          "drawaccept": "Elfogadás",
+          "drawdecline": "Elutasítás",
+          "drawsent": "Döntetlen ajánlat elküldve",
+          "drawcancel": "Megszakítás",
+          "win": "Nyertél",
+          "lose": "Vesztettél",
+          "drawn": "Döntetlen",
+          "reason": "Ok",
+          "moves": "Lépések",
+          "you": "Te",
+          "opponent": "Ellenfél",
+          "messages": {
+            "win": {
+              "outoftime": "Az ellenfél időt kapott",
+              "lockedin": "Az ellenfél zárva van",
+              "pieces": "Az ellenfél nincs több darabja",
+              "forfeit": "Az ellenfél feladta",
+              "disconnect": "Az ellenfél kapcsolatot bontotta"
+            },
+            "lose": {
+              "outoftime": "Te időt kaptál",
+              "lockedin": "Te zárva vagy",
+              "pieces": "Nincs több darabod",
+              "forfeit": "Feladtad"
+            },
+            "draw": {
+              "repetition": "Ismétlődés miatt döntetlen",
+              "moves": "30 lépés szabály miatt döntetlen",
+              "agreement": "Játékos egyezség miatt döntetlen",
+              "rule": "Kényszerített döntetlen szabály miatt"
+            }
+          }
+        },
+        "friends": {
+          "title": "Barátok",
+          "add": "Barátok hozzáadása",
+          "challenge": "Kihívások",
+          "username": "Felhasználónév",
+          "search": "Név keresése",
+          "addfriend": "Hozzáadás",
+          "request": "Kérés",
+          "sent": "Elküldött",
+          "recieved": "Fogadott",
+          "nosent": "nincs elküldött barátkérés",
+          "norec": "nincs fogadott barátkérés",
+          "accept": "Elfogadás",
+          "nofriends": "Nincsenek barátok",
+          "remove": "Eltávolítás",
+          "nochallenges": "Nincsenek kihívások"
+        },
+        "account": {
+          "country": "Ország",
+          "since": "Tagja máról",
+          "edit": "Szerkesztés",
+          "editModal": {
+            "title": "Fiók szerkesztése",
+            "picture": "Profilkép",
+            "username": "Felhasználónév",
+            "email": "Email",
+            "country": "Ország",
+            "save": "Mentés",
+            "emailerror": "Érvénytelen email",
+            "usernameerror": "Érvénytelen felhasználónév"
+          },
+          "changepwd": "Jelszó megváltoztatása",
+          "changepwdModal": {
+            "title": "Jelszó megváltoztatása",
+            "oldpwd": "Régi jelszó",
+            "newpwd": "Új jelszó",
+            "confpwd": "Új jelszó megerősítése",
+            "change": "Jelszó megváltoztatása",
+            "passwordshort": "A jelszó túl rövid",
+            "passwordspaces": "A jelszó nem tartalmazhat szóközt",
+            "passwordlowercase": "A jelszó legalább 1 kisbetűt tartalmaznia kell",
+            "passworduppercase": "A jelszó legalább 1 nagybetűt tartalmaznia kell",
+            "passwordnumber": "A jelszó legalább 1 számot tartalmaznia kell",
+            "passwordmatch": "A jelszavak nem egyeznek"
+          },
+          "viewgames": "Nézd meg a játszott játékaid",
+          "elohistory": "(M)ELO Történelem",
+          "week": "Hét",
+          "month": "Hónap",
+          "year": "Év"
+        },
+        "learn": {
+          "title": "Hogyan játsszák a játékot?",
+          "snippets": [
+            "A Malom, más néven kilenc férfi morrisz egy kétjátékos stratégiai játék. A játékot 24 mezős rácson játsszák.",
+            "Mindkét játékos 9 babbal kezdi a játékot a tábla szélén.",
+            "A játékosok sorban helyezik el a babjaikat a táblán. A babokat csak üres mezőkre helyezhetik el.",
+            "Miután az összes babot elhelyezték, egyet bármely szomszédos üres mezőre mozgathatnak.",
+            "Ha az egyik játékos úgy helyezkedik el, hogy már nem tud mozogni, ő veszít.",
+            "A játék célja, hogy három babot sorban helyezz el. Ezt a konstrukciót Malomnak hívják. A Malomat vízszintesen vagy függőlegesen hozhat létre.",
+            "Mindig jó, ha figyelsz a lehetséges malmokra",
+            "Egy malom bezárása lehetővé teszi, hogy az ellenfeled egy bábuját eltávolítsd a tábláról. Ha még egy bábut szeretnél eltávolítani, újra kell nyitni és bezárni a malmot. Vannak olyan korlátozások, melyek szerint mely bábukat távolíthatod el. Csak azokat a bábukat távolíthatod el, melyek nem részei egy malomnak. Ha malmokat tartasz a saját bábuid között, azok védve vannak és nem távolíthatók el.",
+            "Próbáld figyelni az ellenfelednek lehetséges malmaira, hogy ne veszítsd el a saját malmaidat.",
+            "Ha az egyik játékosnak csak három bábuja maradt, akkor az bármelyik üres helyre ugrhat. Ha még egy bábut veszít, a játékot veszíti.",
+            "Ha az ellenfelednek kevesebb, mint hat bábuja van, mindig ugrálhatsz a malmai közé, hogy döntetlent erőltess.",
+            "Ezen a mechanizmuson alapuló játékban ahol mindkét játékosnak kevesebb mint hat bábuja van, valószínűleg döntetlen lesz a vége. A döntetlen egyezséggel, automatikus döntetlennel 30 lépés után zárt malom nélkül, vagy lépések ismétlésével jöhet létre. Néha a döntetlen ajánlatot nem lehet visszautasítani az ellenféltől. Ez az automatikus döntetlen szabály miatt van. További információkért az automatikus döntetlen szabályról, nézd meg az",
+            "Ha gyakorolni szeretnél, van egy",
+            "berendezve a"
+          ],
+          "links": [
+            "Hivatalos verseny szabálykönyv",
+            "hivatalos gyakorló dokumentum",
+            "WMD"
+          ]
+        },
+        "about": {
+          "title": "Mi az a playmill.at?",
+          "snippets": [
+            "A playmill.at egy weboldal, amely lehetővé teszi a közép-európai hagyományos játék, a malom (más néven kilenc emberi morrisz) játékát.",
+            "Ha szeretne megtudni, hogyan működik pontosan a játék, akkor megtalálhatja a szabályokat és hasznos tippeket és trükköket az",
+            "Az egész játék és az elo számítási folyamat megfelel az"
+          ],
+          "links": [
+            "Tudj meg többet a játékról.",
+            "Tanulási oldal.",
+            "Hivatalos WMD szabályrendszer."
+          ]
+        },
+        "premium": {
+          "title": "Prémium",
+          "description": "A Playmill Prémium tagságot biztosít, amely lehetővé teszi az exkluzív funkciókhoz és előnyökhöz való hozzáférést.",
+          "benefits": {
+            "title": "Prémiummal",
+            "titlewo": "Prémium nélkül",
+            "withPremium": [
+              "Playmill Prémium jelvény",
+              "Napi új rejtvények",
+              "Korlátlan mentett játékismétlések",
+              "Segíts nekünk fenntartani az oldalt"
+            ],
+            "withOutPremium": [
+              "Nincs jelvény",
+              "Nincsenek napi rejtvények",
+              "A játékismétlések 7 nap után törlődnek"
+            ]
+          }
+        },
+        "badges": {
+          "title": "Az Ön jelvényei",
+          "headers": {
+            "badge": "Jelvény",
+            "status": "Állapot",
+            "action": "Művelet",
+            "description": "Leírás"
+          },
+          "descriptions": {
+            "10games": "Játssz 10 játékot",
+            "100games": "Játssz 100 játékot",
+            "1000games": "Játssz 1000 játékot",
+            "10puzzle": "Oldj meg 10 rejtvényt",
+            "100puzzle": "Oldj meg 100 rejtvényt",
+            "1000puzzle": "Oldj meg 1000 rejtvényt",
+            "gm": "Legyél nagymester",
+            "mm": "Legyél malom mester",
+            "premium": "Legyél prémium tag"
+          },
+          "active": "Aktív",
+          "inactive": "Inaktív",
+          "notowned": "Nem tulajdonított",
+          "activate": "Aktiválás",
+          "deactivate": "Deaktiválás",
+          "max3": "Maximum 3 jelvényt aktiválhat."
+        },
+        "gameview": {
+          "game": "Játék",
+          "played": "Játszva",
+          "winner": "Győztes",
+          "white": "Fehér",
+          "black": "Fekete",
+          "as": "mint",
+          "vs": "ellen",
+          "nonotation": "Nincs feljegyzés elérhető ehhez a játékhoz.",
+          "controls": "Irányítások"
+        },
+        "puzzle": {
+          "notFound": "Nincs találat a kirakóshoz.",
+          "try": "Próbálkozás",
+          "tries": "Próbálkozások",
+          "solved": "A kirakós megoldva!",
+          "all": "Az összes kirakós",
+          "next": "Következő kirakós",
+          "again": "Újra játszani"
+        }
+      }
+    },
+    "ro": {
+      "name": "Romanian",
+      "nativeName": "Română",
+      "flag": "RO",
+      "content": {
+        "navbar": {
+          "play": "Joacă",
+          "leaderboard": "Clasament",
+          "learn": "Învață",
+          "about": "Despre",
+          "login": "Autentificare",
+          "signup": "Înregistrare",
+          "logout": "Deconectare",
+          "premium": "Încearcă Premium",
+          "profile": "Profil",
+          "friends": "Prieteni",
+          "home": "Acasă",
+          "swlm": "Comutare la modul luminos",
+          "swdm": "Comutare la modul întunecat",
+          "menu": "Meniu",
+          "havenoaccount": "Nu ai cont?",
+          "haveaccount": "Ai deja cont?",
+          "tomanydev": "Autentificat pe prea multe dispozitive",
+          "logoutfromdev": "Deconectează-te de pe unul dintre dispozitivele tale",
+          "password": "Parolă",
+          "email": "Email",
+          "username": "Nume de utilizator",
+          "confpassword": "Confirmare parolă",
+          "country": "Țară",
+          "loggedout": "Autentificat",
+          "statuses": {
+            "loggedin": "Autentificat",
+            "success": "Succes",
+            "failed": "Eșuat",
+            "successlogin": "Autentificare reușită.",
+            "successsignup": "Înregistrare reușită. Te rugăm să verifici emailul pentru a activa contul.",
+            "allfields": "Te rugăm să completezi toate câmpurile.",
+            "invalidemail": "Email invalid",
+            "invalidusername": "Nume de utilizator invalid",
+            "passwordshort": "Parola prea scurtă",
+            "passwordspaces": "Parola nu poate conține spații",
+            "passwordlowercase": "Parola trebuie să conțină cel puțin o literă mică",
+            "passworduppercase": "Parola trebuie să conțină cel puțin o literă mare",
+            "passwordnumber": "Parola trebuie să conțină cel puțin un număr",
+            "passwordmatch": "Parolele nu se potrivesc"
+          }
+        },
+        "index": {
+          "welcome": "Bine ați venit la playmill.at",
+          "waiting": "Oamenii sunt înregistrați în prezent. Alăturați-vă lor astăzi.",
+          "notlogged": "Se pare că nu ești autentificat.",
+          "createacc": "Creează un cont pentru a salva rezultatele tale și a te măsura împotriva prietenilor tăi.",
+          "welcomeback": "Bine ai revenit"
+        },
+        "play": {
+          "online": {
+            "title": "Online",
+            "play": "Joacă mill",
+            "currelo": "Elo-ul curent este",
+            "info": "Selectează un mod de joc și apasă joacă pentru a te alătura cozii",
+            "modeinfo": "Află mai multe despre",
+            "modes": "modurile de joc",
+            "plslogin": "Te rugăm să te autentifici pentru a juca",
+            "selmode": "Selectează modul de joc",
+            "waiting": "Așteptând un oponent",
+            "queue": "Joacă",
+            "countselo": "numără ELO",
+            "again": "Joacă din nou",
+            "replay": "Vezi reluarea"
+          },
+          "offline": {
+            "title": "Offline",
+            "ai": "Joacă împotriva calculatorului",
+            "person": "Joacă împotriva unei persoane",
+            "localgame": "Joc local",
+            "botgame": "Joc împotriva calculatorului",
+            "toplay": "La rând",
+            "wins": "Victorii",
+            "playagain": "Joacă din nou",
+            "moves": "Mutări"
+          },
+          "puzzles": {
+            "title": "Puzzle-uri",
+            "free": "Pachete gratuite",
+            "premium": "Pachete premium"
+          }
+        },
+        "leaderboard": {
+          "title": "Top 10 jucători după (M)ELO",
+          "rank": "Clasament",
+          "user": "Jucător",
+          "country": "Țară"
+        },
+        "game-modes": {
+          "title": "Modurile de joc disponibile"
+        },
+        "games": {
+          "title": "Jocuri jucate",
+          "opponent": "Oponent",
+          "mode": "Mod",
+          "result": "Rezultat",
+          "played": "Jucat",
+          "end": "nu s-au mai găsit jocuri",
+          "page": "Pagina"
+        },
+        "game": {
+          "forfeit": "Renunță",
+          "draw": "Cerere egalitate",
+          "drawrequest": "Oponentul oferă egalitate",
+          "drawaccept": "Acceptă",
+          "drawdecline": "Refuză",
+          "drawsent": "Cerere egalitate trimisă",
+          "drawcancel": "Anulează",
+          "win": "Câștigă",
+          "lose": "Pierzi",
+          "drawn": "Egalitate",
+          "reason": "Reason",
+          "moves": "Mutări",
+          "you": "Tu",
+          "opponent": "Oponent",
+          "messages": {
+            "win": {
+              "outoftime": "Oponentul a epuizat timpul",
+              "lockedin": "Oponentul este încuiat",
+              "pieces": "Oponentul nu mai are piese",
+              "forfeit": "Oponentul a renunțat",
+              "disconnect": "Oponentul s-a deconectat"
+            },
+            "lose": {
+              "outoftime": "Ați epuizat timpul",
+              "lockedin": "Sunteți încuiat",
+              "pieces": "Nu mai aveți piese",
+              "forfeit": "Ați renunțat"
+            },
+            "draw": {
+              "repetition": "Egalitate prin repetare",
+              "moves": "Egalitate prin regula de 30 de mutări",
+              "agreement": "Egalitate prin acordul jucătorilor",
+              "rule": "Egalitate prin regula de egalitate forțată"
+            }
+          }
+        },
+        "friends": {
+          "title": "Prieteni",
+          "add": "Adaugă prieteni",
+          "challenge": "Provocări",
+          "username": "Nume de utilizator",
+          "search": "Caută nume",
+          "addfriend": "Adaugă",
+          "request": "Cerere",
+          "sent": "Trimis",
+          "recieved": "Primit",
+          "nosent": "nu există cereri de prietenie trimise",
+          "norec": "nu există cereri de prietenie primite",
+          "accept": "Acceptă",
+          "nofriends": "Fără prieteni",
+          "remove": "Șterge",
+          "nochallenges": "Fără provocări"
+        },
+        "account": {
+          "country": "Țară",
+          "since": "Membru din",
+          "edit": "Editează",
+          "editModal": {
+            "title": "Editează contul",
+            "picture": "Imagine de profil",
+            "username": "Nume de utilizator",
+            "email": "Email",
+            "country": "Țară",
+            "save": "Salvează",
+            "emailerror": "Email invalid",
+            "usernameerror": "Nume de utilizator invalid"
+          },
+          "changepwd": "Schimbă parola",
+          "changepwdModal": {
+            "title": "Schimbă parola",
+            "oldpwd": "Parola veche",
+            "newpwd": "Parola nouă",
+            "confpwd": "Confirmă parola nouă",
+            "change": "Schimbă parola",
+            "passwordshort": "Parola prea scurtă",
+            "passwordspaces": "Parola nu poate conține spații",
+            "passwordlowercase": "Parola trebuie să conțină cel puțin o literă mică",
+            "passworduppercase": "Parola trebuie să conțină cel puțin o literă mare",
+            "passwordnumber": "Parola trebuie să conțină cel puțin un număr",
+            "passwordmatch": "Parolele nu se potrivesc"
+          },
+          "viewgames": "Vezi jocurile tale plasate",
+          "elohistory": "Istoric (M)ELO",
+          "week": "Săptămână",
+          "month": "Lună",
+          "year": "An"
+        },
+        "learn": {
+          "title": "Cum se joacă jocul?",
+          "snippets": [
+            "Mill, cunoscut și ca Nine Men's Morris, este un joc de strategie pentru doi jucători. Jocul se joacă pe o grilă cu 24 de spații.",
+            "Fiecare jucător începe cu 9 piese în partea laterala a tablei.",
+            "Jucătorii iau din turnuri plasând piesele lor pe tabla. Piesele pot fi plasate doar pe spațiile libere.",
+            "Odată ce toate piesele sunt plasate, puteți muta una la orice spațiu liber adiacent.",
+            "Dacă unul dintre jucători este blocat și nu mai poate să se miște, pierde jocul.",
+            "Scopul jocului este de a obține trei dintre piesele tale în linie. Această construcție se numește o moară. O moară poate fi creată orizontal sau vertical.",
+            "Este înțelept să fii mereu cu ochii pe posibilele mori",
+            "Închiderea unei mori îți permite să elimini una dintre piesele adversarului de pe tabla. Dacă doriți să luați o altă piesă, trebuie să deschideți și să închideți moara din nou. Există unele restricții asupra pieselor pe care le puteți elimina. Puteți elimina doar piese care nu fac parte dintr-o moară. Asta înseamnă că dacă aveți piese într-o moară, acestea sunt protejate și nu pot fi eliminate.",
+            "Încercați să fiți cu ochii pe posibilele mori ale oponentului pentru a nu risca pierderea unei mori pe care o aveți deja.",
+            "Dacă unul dintre jucători are doar trei piese, acum poate să sară în orice spațiu liber pe tabla. Dacă pierde încă o piesă, pierde jocul.",
+            "Dacă oponentul tău are mai puțin de șase piese, ar trebui să poți să sari în morile lui/ei pentru a forța un egal.",
+            "Datorită acestei mecanici, un joc în care ambele jucători au mai puțin de șase piese se termină cel mai probabil într-un egal. Un egal poate să apară prin acord mutual, prin egal automat după 30 de mutări fără o moară închisă sau prin repetarea mutărilor. Uneori oferta de egal nu poate fi refuzată de către adversar. Aceasta se datorează regulii de egal automat. Pentru mai multe informații despre regula de egal automat, căutați",
+            "Dacă doriți să exersați există un",
+            "furnizat de"
+          ],
+          "links": [
+            "Regulamentul Oficial al Turneului",
+            "documentul oficial de practică",
+            "WMD"
+          ]
+        },
+        "about": {
+          "title": "Ce este playmill.at?",
+          "snippets": [
+            "playmill.at este un website care vă permite să jucați jocul tradițional european central de moară (cunoscut și ca Nine Men's Morris).",
+            "Dacă doriți să aflați cum funcționează exact jocul, puteți găsi regulile și câteva sfaturi și trucuri utile pe",
+            "Întregul proces de joc și calcul al ELO se conformează cu"
+          ],
+          "links": [
+            "Aflați mai multe despre joc.",
+            "Pagina de învățare.",
+            "Regulamentul oficial WMD."
+          ]
+        },
+        "premium": {
+          "title": "Premium",
+          "description": "Playmill Premium este o membru care vă oferă acces la funcții și beneficii exclusive.",
+          "benefits": {
+            "title": "Cu Premium",
+            "titlewo": "Fără Premium",
+            "withPremium": [
+              "Insignă Premium Playmill",
+              "Rezolvări noi de puzzle-uri în fiecare zi",
+              "Redări nelimitate ale jocurilor salvate",
+              "Ajută-ne să menținem funcționarea site-ului"
+            ],
+            "withOutPremium": [
+              "Fără Insignă",
+              "Fără puzzle-uri noi zilnic",
+              "Redările jocurilor se șterg după 7 zile"
+            ]
+          }
+        },
+        "badges": {
+          "title": "Insignele tale",
+          "headers": {
+            "badge": "Insignă",
+            "status": "Stare",
+            "action": "Acțiune",
+            "description": "Descriere"
+          },
+          "descriptions": {
+            "10games": "Joacă 10 jocuri",
+            "100games": "Joacă 100 jocuri",
+            "1000games": "Joacă 1000 jocuri",
+            "10puzzle": "Rezolvă 10 puzzle-uri",
+            "100puzzle": "Rezolvă 100 puzzle-uri",
+            "1000puzzle": "Rezolvă 1000 puzzle-uri",
+            "gm": "Devino un mare maestru",
+            "mm": "Devino un maestru moară",
+            "premium": "Devino membru premium"
+          },
+          "active": "Activ",
+          "inactive": "Inactiv",
+          "notowned": "Nu ai această insignă",
+          "activate": "Activează",
+          "deactivate": "Dezactivează",
+          "max3": "Poți activa maxim 3 insigne"
+        },
+        "gameview": {
+          "game": "Joc",
+          "played": "Jucat",
+          "winner": "Câștigător",
+          "white": "Alb",
+          "black": "Negru",
+          "as": "ca",
+          "vs": "versus",
+          "nonotation": "Nu există notare disponibilă pentru acest joc.",
+          "controls": "Controale"
+        },
+        "puzzle": {
+          "notFound": "Nicio puzzle găsită.",
+          "try": "Încearcă",
+          "tries": "Încercări",
+          "solved": "Puzzle rezolvat!",
+          "all": "Toate puzzle-urile",
+          "next": "Următorul puzzle",
+          "again": "Joacă din nou"
+        }
+      }
+    }
+  }
+}
